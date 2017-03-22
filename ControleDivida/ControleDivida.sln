@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleDivida", "ControleDivida\ControleDivida.csproj", "{11B346D6-B5B1-43A1-B0C0-448331898944}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apresentacao", "ControleDivida\Apresentacao.csproj", "{11B346D6-B5B1-43A1-B0C0-448331898944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoDados", "Apresentacao\BancoDados.csproj", "{69FDDB31-EBD8-4D62-9D9B-79C621B740B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{11B346D6-B5B1-43A1-B0C0-448331898944}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11B346D6-B5B1-43A1-B0C0-448331898944}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11B346D6-B5B1-43A1-B0C0-448331898944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69FDDB31-EBD8-4D62-9D9B-79C621B740B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FDDB31-EBD8-4D62-9D9B-79C621B740B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FDDB31-EBD8-4D62-9D9B-79C621B740B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FDDB31-EBD8-4D62-9D9B-79C621B740B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
