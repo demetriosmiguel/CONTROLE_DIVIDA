@@ -7,7 +7,7 @@
     <title>-=DIM=-</title>
 
     <style type="text/css">
-        <!--
+   
         body {
             padding: 0px;
             margin: 0px;
@@ -39,16 +39,16 @@
                     #menu ul li a:hover {
                         background-color: #D6D6D6;
                         color: #6D6D6D;
-                        border-bottom: 3px solid #EA0000;
+                        border-bottom: 3px solid #4CAF50;
                     }
-        -->
+       
     </style>
 
 </head>
 
 
 <body>
-    <form id="form1" runat="server">
+    <form id="home" runat="server">
         <div>
             <h1>Controle de Divida</h1>
         </div>
@@ -57,9 +57,9 @@
     <div id="menu">
         <ul>
             <li><a href="">CADASTRO CLIENTES</a></li>
-            <li><a href="">lANÇAR PEDIDOS</a></li>
+            <li><a href="">LANÇAR PEDIDOS</a></li>
             <li><a href="">VISUALIZAR PEDIDOS</a></li>
-            <li><a href="">RELATORIOS</a></li>
+            <li><a href="">RELATÓRIOS </a></li>
 
         </ul>
     </div>

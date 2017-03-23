@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+
+<style>
+    body {
+        background-color: #00897B;
+    }
+
+    #login-box {
+        background-color: #80CBC4;
+        width: 380px;
+        height: 260px;
+        margin: 140px auto 0px;
+        border-radius: 5px;
+    }
+
+    #login-box-interno {
+        width: 360px;
+        height: 240px;
+        background-color: #fdfdfd;
+        position: absolute;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 9px black;
+        overflow: hidden;
+    }
+
+    #login-box-label {
+        height: 45px;
+        text-align: center;
+        font: bold 14px/45px sans-serif;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background: #f5f6f6;
+        background: -moz-linear-gradient(top, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%);
+        background: -webkit-linear-gradient(top, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
+        background: linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 );
+        border-bottom: 1px solid white;
+        box-shadow: 1px 0px 3px black;
+        color: #555555;
+        text-shadow: 1px 0px 1px white;
+    }
+
+    .input-div {
+        margin: 20px;
+        padding: 5px;
+        background-color: #f2f5f7;
+        border-radius: 3px;
+    }
+
+        .input-div input {
+            width: 300px;
+            height: 35px;
+            padding-left: 5px;
+            font: normal 13px sans-serif;
+            color: #aeaeae;
+            border-radius: 3px;
+            border: 1px solid #bfc4c6;
+            outline: none;
+        }
+
+        .input-div:hover {
+            background-color: #e0f1fc;
+        }
+
+            .input-div:hover input {
+                border-color: #7dc6dd;
+            }
+
+    #input-senha {
+        margin-top: -10px;
+    }
+
+    #botoes {
+        width: 310px;
+        margin-left: 25px;
+    }
+
+    #botao {
+        float: right;
+        padding: 5px 15px;
+        font: bold 12px sans-serif;
+        border-radius: 20px;
+        text-shadow: 0px 1px 0px white;
+        border: 1px solid #9eb9c3;
+        background: -moz-linear-gradient(top, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%);
+        background: -webkit-linear-gradient(top, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
+        background: linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 );
+        border-bottom: 1px solid white;
+        color: #555555;
+        text-shadow: 1px 0px 1px white;
+        color: #527988;
+        box-shadow: 0px 0px 10px #c9c9c9;
+    }
+
+        #botao:hover {
+           
+            background: #eeeeee;
+            background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); 
+            background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); 
+            background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); 
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); 
+            cursor: pointer;
+        }
+
+    #lembrar-senha {
+        font: normal 12px sans-serif;
+    }
+</style>
+
+<body>
+    <div id="login-box">
+        <div id="login-box-interno">
+            <div id="login-box-label"> Acesso do Usuário</div>
+            <div class="input-div" id="input-usuario">
+                <input type="text" value="USUÁRIO OU EMAIL" />
+            </div>
+            <div class="input-div" id="input-senha">
+                <input type="text" value="SENHA" />
+            </div>
+            <div id="botoes">
+                <div id="botao">Login</div>
+                <div id="lembrar-senha"><input type="checkbox" /> Lembrar da Minha Senha</div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
