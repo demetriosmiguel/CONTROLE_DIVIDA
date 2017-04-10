@@ -13,5 +13,23 @@ namespace SistemaDim
         {
 
         }
+
+        protected void Btn_Acessar_Click(object sender, EventArgs e)
+        {
+
+            if (Txt_Usuario.Text == "" ||  Txt_Senha.Text == "" )
+            {
+
+                Txt_Usuario.Text = "Usuário e senha vazios";
+
+
+
+            }
+            else
+            {
+                Txt_Usuario.Text = "Ace";
+            }
+
+        }
     }
 }

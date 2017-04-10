@@ -31,13 +31,13 @@ namespace SistemaDim {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// Tex_Usuario control.
+        /// Txt_Usuario control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Tex_Usuario;
+        protected global::System.Web.UI.WebControls.TextBox Txt_Usuario;
         
         /// <summary>
         /// Label2 control.
@@ -49,21 +49,21 @@ namespace SistemaDim {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// Tex_Senha control.
+        /// Txt_Senha control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Tex_Senha;
+        protected global::System.Web.UI.WebControls.TextBox Txt_Senha;
         
         /// <summary>
-        /// Button1 control.
+        /// Btn_Acessar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button Btn_Acessar;
     }
 }
